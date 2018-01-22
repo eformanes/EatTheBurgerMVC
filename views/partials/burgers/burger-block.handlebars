@@ -1,0 +1,10 @@
+<li>
+	{{burger_name}}
+    {{!-- Ran into an odd issue where data-"name" where name always because lowercase --}}
+	<button class="eatThisBurger" data-id="{{this.id}}" data-newdevoured="{{devoured}}">
+		{{#if devoured}}Eat Burger!{{else}}Eaten!{{/if}}
+	</button>
+
+    {{!-- Change delete to eat --}}
+	{{!-- <button class="delete-cat" data-id="{{this.id}}">DELETE!</button> --}}
+</li>
